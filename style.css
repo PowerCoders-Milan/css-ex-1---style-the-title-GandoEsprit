@@ -1,1 +1,33 @@
-/* Use Selectors and attributes for the HTML design */
+
+h1{
+    border-radius: 10px;
+    color: rgb(0, 115, 128);
+    font-family: 'Open Sans', sans-serif;
+    width: 30%;
+}
+
+h2{
+    color: rgb(47, 200, 255);
+    font-family: 'Hanalei', cursive;
+    text-align: center;
+    width: 20%;
+}
+
+.my-style h1{
+    color: rgb(255, 165, 47);
+    font-variant: small-caps;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-shadow: 3px 3px rgb(255, 165, 47);
+}
+
+.my-style h2{
+    color: rgb(217, 47, 255);
+    font-variant: inherit;
+    letter-spacing: 4px;
+    text-transform: lowercase;
+    text-decoration: overline;
+    text-shadow: 6px 4px rgb(217, 47, 255);
+}
+
